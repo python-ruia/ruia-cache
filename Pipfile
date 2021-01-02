@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 ruia = ">=0.8.0"
+aiofiles = "*"
 
 [dev-packages]
 black = "*"

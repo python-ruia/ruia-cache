@@ -111,3 +111,4 @@ venv.bak/
 .DS_Store
 examples/topics_examples/hacker_news.txt
 ruia_demo.py
+.ruia_cache/

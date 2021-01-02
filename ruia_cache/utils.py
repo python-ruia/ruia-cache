@@ -2,8 +2,8 @@
 """
  Created by howie.hu at 2020/12/31.
  Ruia cache plugin tool module, The following is a description of some environment variables:
-    - RUIA_CACHE: cache dir, default value is os.environ["HOME"]
-    - RUIA_CACHE_TTL: Cache expiration time, defaulte value is 86400 ms = 1 day
+    - RUIA_CACHE: cache dir, default value is os.environ["HOME"], status: ok
+    - RUIA_CACHE_TTL: Cache expiration time, defaulte value is 86400 ms = 1 day, status: under development
 """
 import hashlib
 import os
