@@ -14,7 +14,7 @@ def read(file_name):
 
 setup(
     name="ruia_cache",
-    version="0.0.1",
+    version="0.0.2",
     author="Howie Hu",
     description="ruia_cache - A Ruia plugin for caching URL.",
     long_description=read("README.md"),
