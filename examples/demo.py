@@ -14,7 +14,6 @@ os.environ.setdefault(
 
 class Demo(RuiaCacheSpider):
     name = "demo_spider"
-    # start_urls = ["http://httpbin.org/get", "http://httpbin.org/get"]
     start_urls = ["http://httpbin.org/get"]
 
     async def parse(self, response):
@@ -24,4 +23,5 @@ class Demo(RuiaCacheSpider):
 
 if __name__ == "__main__":
     Demo.start()
+    # Using cache data
     Demo.start()

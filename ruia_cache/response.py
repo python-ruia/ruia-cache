@@ -4,7 +4,7 @@
 """
 from ruia import Response
 
-from ruia_cache.cache import resp_cache
+from ruia_cache.cache_patch import resp_cache
 
 
 class CacheResponse(Response):

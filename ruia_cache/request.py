@@ -11,7 +11,7 @@ import async_timeout
 
 from ruia import Request, Response
 
-from ruia_cache.cache import request_cache
+from ruia_cache.cache_patch import req_cache
 
 
 class RequestCacheSpider(Request):
@@ -20,7 +20,7 @@ class RequestCacheSpider(Request):
     Adding caching features to Ruia
     """
 
-    @request_cache
+    @req_cache
     async def fetch(self, delay=True) -> Response:
         """Fetch all the information by using aiohttp"""
         if delay and self.request_config.get("DELAY", 0) > 0:

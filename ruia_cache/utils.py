@@ -30,7 +30,7 @@ def create_cache_dir(path):
             os.mkdir(path)
             logger.info(f"<Cache dir generated successfully: {path}>")
 
-        logger.info(f"<Cache dir status is ok: {path}>")
+        # logger.info(f"<Cache dir status is ok: {path}>")
     except:
         logger.error(f"<Cache dir gen failed!: {path}>")
     return path
